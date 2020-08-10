@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone mask</title>
+</head>
+<body>
+
+    <input class="js-tel" type="text" placeholder="Введите телефон">
+    <input class="js-tel" type="text" placeholder="Введите телефон">
+    <input class="js-tel" type="text" placeholder="Введите телефон">
+    <br>
+    <input class="js-phone" type="text" placeholder="Введите телефон">
+    
+
+    <script src="phone_mask.min.js"></script>
+    <script>
+        window.addEventListener('load', function(){
+            phone_mask('.js-tel', '+38 (___) ___-__-__');
+            phone_mask('.js-phone', '+38 ___ ___ ____');
+        })
+    </script>
+</body>
+</html>
