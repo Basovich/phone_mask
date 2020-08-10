@@ -8,5 +8,6 @@ small plugin for phone mask
 phone_mask(selector, mask);
 
 selector - строка селектор
-mask - строка - маска для ввода _
+mask - строка - маска для ввода, где _ это часть которую будет заполнять юзер
+
 пример можно посмотреть тут - https://basovich.github.io/phone_mask/
