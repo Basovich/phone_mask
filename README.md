@@ -6,7 +6,7 @@ small plugin for phone mask
 Далее инициализируем маску где необходимо.
 
 phone_mask(selector, mask);
-
+phone_mask('.js-phone', '+38 ___ ___ ____');
 selector - строка селектор
 mask - строка - маска для ввода, где _ это часть которую будет заполнять юзер
 
